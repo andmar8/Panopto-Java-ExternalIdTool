@@ -1,13 +1,13 @@
 Panopto-Java-ExternalIdTool
 ===========================
 
-A tool for making dealing with external ids, panopto ids and entity names somewhat easier. This tool is not exhaustively implemented and for the most part has quite a few rough edges, but was only really intended to do a couple of gets and sets but potentially could be much more useful! We still use this tool and find it very useful indeed, especially in the development phase.
+A tool for making dealing with external ids, panopto ids and entity names somewhat easier. This tool is not exhaustively implemented and for the most part has quite a few rough edges, but was only really intended to do a couple of gets and sets although potentially could be much more useful! We still use this tool and find it very useful indeed, especially in the development phase.
 
-One other aspect to this tool that is quite important to know, Panopto implemented external Id's in API version 4.2 but were not convinced it would be a widely used feature so you can **ONLY** access external Id's using the API, since that means there is **NOTHING** in the Panopto GUI for accessing external Id's and only implicit ways of getting at Panopto Id's*. This tool allows much easier access to names, Id's and external Id's and is the **ONLY** **interactive** way to **set** external Id's short of writing your own code to explicitly retrieve a given external Id.... which would be a waste of you time now you've found this code.
+One other aspect to this tool that is quite important to know, Panopto implemented external Id's in API version 4.2 but were not convinced it would be a widely used feature, so you can **ONLY** access external Id's using the API, since that means there is **NOTHING** in the Panopto GUI for accessing external Id's and only implicit ways of getting at Panopto Id's*. This tool allows much easier access to names, Id's and external Id's and is the **ONLY** **interactive** way to **set** external Id's short of writing your own code to explicitly retrieve a given external Id.... which would be a waste of you time now you've found this code.
 
-The tool covers Id's, Names and External Id's for folders, groups, remote recorders and sessions, just to reiterate, some sections are more mature and less bugged than others, in essence this is still sort of "work in progress" but is feature complete enough for our purposes.
+The tool covers Id's, Names and External Id's for folders, groups, remote recorders and sessions, just to reiterate, some sections are more mature and less bugged than others, in essence this is still a "sort of work in progress" but is feature complete enough for our purposes.
 
-* For example, how do I get a folder's Id or user's Id??? Not their name, the internally designated Id that Panopto uses in it's own API? You have to get it from URL's and other round about manners using the GUI :(
+\* For example, how do I get a folder's Id or user's Id??? Not their name, the internally designated Id that Panopto uses in it's own API? You have to get it from URL's and other round about manners using the GUI :(
 
 Libraries required to compile
 -----------------------------
