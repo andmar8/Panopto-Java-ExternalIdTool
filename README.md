@@ -7,6 +7,8 @@ One other aspect to this tool that is quite important to know, Panopto implement
 
 The tool covers Id's, Names and External Id's for folders, groups, remote recorders and sessions, just to reiterate, some sections are more mature and less bugged than others, in essence this is still a "sort of work in progress" but is feature complete enough for our purposes.
 
+For more information on why we're using (and need) external Id's see [here](https://github.com/andmar8/Panopto-PHP-Booking-Engine#what-are-external-ids)
+
 \* For example, how do I get a folder's Id or user's Id??? Not their name, the internally designated Id that Panopto uses in it's own API? You have to get it from URL's and other round about manners using the GUI :(
 
 Libraries required to compile
